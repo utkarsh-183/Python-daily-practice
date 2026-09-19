@@ -42,8 +42,8 @@ print(a.find("Raghav"))
 print(a.index("Raghav"))    # similar to find(), but gives error if not found
 
 # 11. Check if string contains only alphabets
-name = "Utkarsh"
-print(name.isalpha())       # True
+name = "Utkarsh  "
+print(name.isalpha())       # False
 
 # 12. Check if string contains only numbers
 number = "12345"
@@ -80,3 +80,7 @@ print("Python".endswith("on"))
 # 20. Partition
 text = "I love Python"
 print(text.partition("love"))
+
+#21. Title
+text = "i am eager to learn python"
+print(text.title())  # coverts 1st letter of each word to capital
