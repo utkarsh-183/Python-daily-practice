@@ -1,2 +1,0 @@
-import baba
-baba.welcome()
