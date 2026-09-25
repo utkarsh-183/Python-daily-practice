@@ -1,0 +1,2 @@
+import baba
+baba.welcome()
