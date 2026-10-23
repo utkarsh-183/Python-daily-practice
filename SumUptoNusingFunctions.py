@@ -11,5 +11,8 @@ def sum(n):
         total+=i
     return total
 
-n = int(input("Enter the Number : "))
-print("Sum of Numbers till N is : ", sum(n))
+n1 = int(input("Enter the Number : "))
+print("Sum of Numbers till N is : ", sum(n1))
+
+n2 = int(input("Enter the Number : "))
+print("Sum of Numbers till N is : ", sum(n2))
